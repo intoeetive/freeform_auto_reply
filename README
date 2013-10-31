@@ -1,0 +1,9 @@
+Freeform auto reply is the extension for ExpressionEngine 2 that works together with Solspace Freeform.
+
+It allows to automatically send email to user when his Freeform submission is edited in Control Panel (e.g. status is changed)
+
+To get it working, you need to create a checkbox Freeform field and select it as "trigger" in extension settings. You also need to provide email subject and message templates for each Freeform status. 
+
+Whenever Freeform submission is edited in CP, the trigger field is checked and the templates for status of entry/submission is not empty, a message is sent to the submission author.
+
+In templates, all freeform fields are availabe as variables, e.g. {first_name}, {last_name}, {email} etc.
